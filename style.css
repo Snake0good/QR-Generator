@@ -1,0 +1,82 @@
+:root {
+    --light-background: #f1faee;
+    --dark-text: #3d405b;
+    --highlight-color: #81b29a;
+    --accent-color: #e07a5f;
+}
+
+
+/* index html  */
+body {
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--light-background);
+    color: var(--dark-text)
+}
+
+#webaddress, #size, #color {
+    height: 40px;
+    font-size: 1.2rem;
+}
+#webaddress, #size {
+    border: 2px solid var(--highlight-color);
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* hide the arrows on the number input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#size {
+    width: 100px;
+}
+
+
+#webaddress {
+    width: 400px; 
+    max-width: 90%;
+}
+
+#webaddress::placeholder {
+    text-align: center;
+}
+
+label, #btn {
+    margin: 15px 0 5px 0;
+}
+
+#btn {
+    margin-top: 30px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 1.3rem;
+    background-color: var(--highlight-color);
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+#btn:hover {
+    background-color: var(--accent-color);
+}
+#btn:active {
+    transform: translateY(3px) scale(0.95);
+}
+
+#response {
+    width: 100%;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+

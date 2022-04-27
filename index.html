@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/rick-roll-pic.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>QR Generator</title>
+</head>
+<body>
+    <h1>QR Code Generator</h1>
+    <div id="response">
+        <img id="qrCode" src="images/rick-roll-pic.png" alt="" />
+    </div>
+    
+    <label for="webaddress">Enter Website or Search Term</label>
+    <input id="webaddress" type="text" placeholder="enter web address..."/>
+
+    <label for="size">Enter Size of QR Code</label>
+    <input id="size" type="number" value="200" max="250" min="100"/>
+
+    <label for="color">Select QR Background Color</label>
+    <input id="color" type="color" />
+
+    <button id="btn">Create QR Code</button>
+
+
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
