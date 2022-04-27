@@ -19,7 +19,7 @@ body {
 }
 
 #webaddress, #size, #color {
-    height: 40px;
+    height: 30px;
     font-size: 1.2rem;
 }
 #webaddress, #size {
@@ -49,11 +49,11 @@ input::-webkit-inner-spin-button {
 }
 
 label, #btn {
-    margin: 15px 0 5px 0;
+    margin: 10px 0 2px 0;
 }
 
 #btn {
-    margin-top: 30px;
+    margin-top: 20px;
     border: none;
     border-radius: 15px;
     padding: 10px;
@@ -76,6 +76,7 @@ label, #btn {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
 }
 
 

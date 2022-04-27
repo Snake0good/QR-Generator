@@ -13,9 +13,7 @@ function getFetch(){
   
   if (pixels > 250 || pixels < 100) {
     alert('Please enter a pixel amount betwee 100 and 250')
-  }
-  
-  if (webaddress.length === 0) {
+  } else if (webaddress.length === 0) {
     alert('Please enter a web address')
   } else {
     document.querySelector('#qrCode').src = 'images/blocks-loading.gif'
